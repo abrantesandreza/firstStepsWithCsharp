@@ -1,2 +1,2 @@
 # firstStepsWithCsharp
-First steps with C#
+Exercícios de Lógica de Programação em C#
