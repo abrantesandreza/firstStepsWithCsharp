@@ -13,6 +13,8 @@ namespace Course
 
             Console.WriteLine("There once was a woman named " + characterName);
             Console.WriteLine("She was " + characterAge);
+
+            characterName = "Emily";
             Console.WriteLine("She really liked the name " + characterName);
             Console.WriteLine("But didn't like being " + characterAge);
 
