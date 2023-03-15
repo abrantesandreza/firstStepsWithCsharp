@@ -17,6 +17,13 @@ namespace Course
             Console.WriteLine(5 / 2); //2
             Console.WriteLine(5 / 2.0); //2.5
 
+            //Variables
+            int num = 6;
+            num++;
+            Console.WriteLine(num);
+
+
+
             //Console.ReadLine();
         }
     }
