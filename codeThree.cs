@@ -7,7 +7,7 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Giraffe Academy");
+            Console.WriteLine("Giraffe\nAcademy");
 
             Console.ReadLine();
         }
