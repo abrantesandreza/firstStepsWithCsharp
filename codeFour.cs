@@ -22,6 +22,16 @@ namespace Course
             num++;
             Console.WriteLine(num);
 
+            //Methods
+            Console.WriteLine(Math.Abs(-40)); //40
+            Console.WriteLine(Math.Pow(2, 8)); //256
+            Console.WriteLine(Math.Pow(3.8, 2)); //14.44
+            Console.WriteLine(Math.Sqrt(36)); //6
+            Console.WriteLine(Math.Max(4, 91)); //91
+            Console.WriteLine(Math.Min(4, 91)); //4
+            Console.WriteLine(Math.Round(4.6)); //5
+            Console.WriteLine(Math.Round(4.3)); //4
+
 
 
             //Console.ReadLine();
