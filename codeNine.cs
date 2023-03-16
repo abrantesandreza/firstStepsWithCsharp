@@ -67,24 +67,28 @@ namespace Course
                     Console.WriteLine("Você escolheu a operação: " + operation + " e seu resultado foi: " + (numberOne / numberTwo));
                     Console.WriteLine("----------------------------------------------------");
 
+                } else
+                {
+                    Console.WriteLine("Cálculo inválido!");
+                    Console.WriteLine("----------------------------------------------------");
                 }
 
                 Console.Write("Deseja fazer outra operação? S/N ");
                 char response = char.Parse(Console.ReadLine());
 
-                if(response == 'S' || response == 's')
+                if (response == 'S' || response == 's')
                 {
                     continue;
-                } 
+                }
                 else if (response == 'N' || response == 'n')
                 {
                     break;
                 }
-             
+
             }
-        
+
         }
-      
+
     }
 
 }
