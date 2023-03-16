@@ -16,7 +16,7 @@ namespace Course
             //populate the array
             friends[0] = "Rach";
             friends[1] = "Monica";
-            friends[2] = "Phebees";
+            friends[2] = "Pheebes";
             friends[3] = "Ross";
             friends[4] = "Chan";
             friends[5] = "Joe";
