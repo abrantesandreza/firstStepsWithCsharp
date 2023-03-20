@@ -44,7 +44,7 @@ namespace Course
                     int result = GetGreater(userNumberOne, userNumberTwo, userNumberThree);
                     Console.WriteLine("Este é o maior número dentre os que você escolheu: " + result);
 
-                    Console.WriteLine("-------------------------------------------------------");
+                    Console.WriteLine("---------------------------------------------------------");
 
                     //checa se o usuario deseja continuar ou sair do programa
                     Console.Write("Deseja realizar outra comparação? S/N ");
