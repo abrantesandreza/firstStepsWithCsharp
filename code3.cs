@@ -21,7 +21,6 @@ namespace Course
                 {
                     Console.WriteLine("Entrada inválida!");
                     Console.Write("Insira um novo valor: ");
-
                 }
 
                 //execução da tabuada
@@ -29,7 +28,6 @@ namespace Course
                 {
                     Console.WriteLine(numTabuada + " * " + i + " = " + (numTabuada * i));
                 }
-
                 Console.WriteLine("-------------");
 
                 while (true)
@@ -42,8 +40,7 @@ namespace Course
                     if (userResponse == "S" || userResponse == "s")
                     {
                         Console.WriteLine("------------------------------------");
-                        break;
-                        
+                        break;                       
                     } else if (userResponse == "N" || userResponse == "n")
                     {
                         Console.WriteLine("Você escolheu encerrar o programa...");
