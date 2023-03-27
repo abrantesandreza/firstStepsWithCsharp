@@ -11,7 +11,7 @@ namespace Course
         static void Main(string[] args)
         {
 
-            //Faça um programa que receba dois números e calcule a soma, subtração, multiplicação e divisão.
+            //Faça um programa que receba dois números e calcule a soma, subtração, multiplicação ou divisão.
             while (true)
             {
 
