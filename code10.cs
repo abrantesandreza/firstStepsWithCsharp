@@ -39,16 +39,19 @@ namespace Course
         static List<int> SortNumbers(List<int> messyNumbers)
         {
 
+            //Caso base da recursão
             if (messyNumbers.Count <= 1)
             {
                 return messyNumbers;
             }
-
+            
             List<int> greatest = new List<int>();
             List<int> lowest = new List<int>();
 
+            //Seta um target para funcionar como um comparador
             int target = messyNumbers[0];
 
+            //Divide a lista entre maiores numeros e menores baseado no target
             for (int i = 1; i < messyNumbers.Count; i++) 
             {
                 if (target < messyNumbers[i])
@@ -60,11 +63,13 @@ namespace Course
                 }
             }
 
-
+            //Chama a função SortNumbers recursivamente passando as listas 
             greatest = SortNumbers(greatest);
             lowest = SortNumbers(lowest);
 
+            //Adiciona o target à lista 
             lowest.Add(target);
+            //Adiciona toda a lista greatest na lista lowest
             lowest.AddRange(greatest);
 
             return lowest;
