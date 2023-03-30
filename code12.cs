@@ -28,7 +28,7 @@ namespace Course
             Tuple<int, int> lowestAndGreatest = LowestAndGreatest(userResponseList);
 
                         
-            Console.WriteLine("A média dos seus números é: " + Media(userResponseList) + " e o menor e maior número, respectivamente, são: " + lowestAndGreatest.Item1 + " e " + lowestAndGreatest.Item2);
+            Console.WriteLine("A média dos números é: " + Media(userResponseList) + " e o menor e maior número, respectivamente, são: " + lowestAndGreatest.Item1 + " e " + lowestAndGreatest.Item2);
 
         }
 
